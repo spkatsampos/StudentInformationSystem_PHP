@@ -1,0 +1,1 @@
+<?php $mydomain='http://localhost' ?> 

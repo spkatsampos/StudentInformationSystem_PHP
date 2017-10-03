@@ -1,0 +1,336 @@
+body,
+html {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#fff;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 11px;
+}
+    
+	a:link {background-color:#357EC7; }
+    a:visited {background-color:	#357EC7; color:#FFF;}
+    a:hover {background-color:#3BB9FF;}
+    a:active {background-color:#FFF;} 
+	
+
+#wrap {
+    width:auto;
+    margin:0 auto;
+    background:#fff;
+    min-height:auto;
+    height: auto !important;
+    height: 90%;
+}
+
+#header {
+    padding:0px;
+    height: 150px;
+	width: 1200px;
+    background: #FFFFFF url(img/logo_secretary.jpg) no-repeat;
+}
+
+h1 {
+    margin:0;
+}
+#nav {
+    padding:5px 10px;
+    background:#c99;
+}
+#main {
+    float:center;
+    width:880px;
+    padding:10px;
+    background:#fff;
+}
+#menu {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	padding: auto;
+	background:#357EC7;
+	font-size:20px;
+	color:#FFFFFF;
+	text-align: center;
+	
+	}
+
+  #footer {
+		width: 1200px;
+		clear:both;
+		padding:5px 10px;
+		background:	#357EC7;
+		text-align: center;
+		color:#FFF;
+		font-family:cambria;
+    }
+    #footer p {
+		margin:0;
+		position: absolute;
+		bottom: 0px;
+		
+    }
+.h1navbar {
+font-family:new time roman; 
+margin:0;
+font-size: 18pt;
+font-weight: bold; 
+display: inline;
+color:#FFF;
+}
+
+.h2navbar {
+font-family:cambria; 
+margin:0;
+font-size: 14pt;
+font-weight: bold; 
+font-style:italic;
+display: inline;
+color:#FFF;
+
+}
+.h3navbar {
+font-family:cambria; 
+margin:0;
+font-size: 10pt;
+font-weight: bold; 
+font-style:italic;
+display: inline;
+color:#FFF;
+
+}
+table .view ,
+
+tr
+{
+border:2px solid #4682b4;
+
+}
+th
+{
+border:8px solid #4682b4;
+background-color:#4682b4;
+color:white;
+}
+td
+{
+border:2px ;
+background-color:white;
+color:black;}
+
+
+
+table .table2 ,
+
+tr
+{
+border:1px;
+
+}
+td
+{
+border:1px ;
+background-color:white;
+color:black;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+fieldset
+{
+    border: 1px solid #6666FF;
+    display: inline-block;
+    border-radius: 8px;
+    /*-moz-border-radius: 8px;*/
+    border-radius: 8px;
+}
+
+legend
+{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: #FFFFFF;
+    background: #6666FF;
+    border: 0px solid #781351;
+    padding: 2px 6px 2px 6px;
+}
+
+.text label
+{
+    width: 15em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block;
+    color: #3333CC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.search
+{
+    margin: 10px;
+}
+
+.search label
+{
+    float: left;
+    text-align: left;
+    /*margin-left: 0.5em;*/
+    display: block;
+    color: #3333CC;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 11px;
+}
+
+.search input, textarea
+{
+    color: #000066;
+    background: #E8E8E8;
+    border: 1px solid #6666FF;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+}
+
+input.image-button {
+    background-repeat: no-repeat;
+    text-align: absmiddle;
+    width: 20px;
+    height: 20px;
+}
+
+select {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+    color: #781351;
+    background: #fee3ad;
+}
+table.form td.form_subheader
+{
+	font-weight:1000;
+	font-size: 11pt;
+	font-family: verdana;
+	color: #000999;
+	text-align: right;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-width: 2px;
+	border-spacing: 1px;
+	border-style: solid solid solid solid;
+	border-color: #4682b4;
+	border-collapse: collapse;
+}
+table.form th
+{
+	font-weight:700;
+	font-size: 9pt;
+	font-family: verdana;
+	color: #000999;
+	text-align: center;
+	background-color: #ccccf0;
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: solid solid solid solid;
+	border-color: #4682b4;
+	border-collapse: collapse;
+}
+
+table.form td
+{
+	font-weight:300;
+	font-size: 8pt;
+	font-family: verdana;
+	color: #000999;
+	text-align: left;
+	height: 28px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-width: 2px;
+	border-spacing: 0px;
+	border-style: solid solid solid solid;
+	border-color: #4682b4;
+	border-collapse: collapse;
+}
+table.form td.form_white
+{
+	
+	font-size: 8pt;
+	font-family: verdana;
+	
+		border-width: 0px;
+	border-spacing: 0px;
+	
+	border-spacing: 0px;
+	border-style: solid solid solid solid;
+	
+	
+}
+table .main_menu td{
+font-weight:1000;
+	font-size: 11pt;
+	font-family: verdana;
+	color: #000999;
+	text-align: right;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-width: 2px;
+	border-spacing: 1px;
+	border-style: solid solid solid solid;
+	border-color: #4682b4;
+	border-collapse: collapse;
+}
+.text input, textarea
+{
+    color: #000066;
+    background: #E8E8E8;
+    border: 1px solid #6666FF;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+.text select
+{
+    color: #000066;
+    background: #E8E8E8;
+    border: 1px solid #6666FF
+}
+
+.text input.btn
+{
+    color: #000;
+    background: #ffa20f;
+    border: 2px outset #d7b9c9;
+}
+
+button.btn
+{
+    color: #000;
+    background: #ffa20f;
+    border: 2px outset #d7b9c9;
+    margin: 0px 5px 0px 5px;
+}
+button.image1 {
+    background-image: url(img/edit.png);
+    background-repeat: no-repeat;
+	text-align: absmiddle;
+	width: 30px;
+	height: 30px;
+}
+button.image2 {
+    background-image: url(img/view.png);
+    background-repeat: no-repeat;
+	text-align: absmiddle;
+	width: 30px;
+	height: 30px;
+}
+button.image3 {
+    background-image: url(img/insertdb.jpg);
+    background-repeat: no-repeat;
+	text-align: absmiddle;
+	width: 30px;
+	height: 30px;
+}
